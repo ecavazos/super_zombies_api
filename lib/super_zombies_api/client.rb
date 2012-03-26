@@ -5,8 +5,8 @@ module SuperZombiesApi
   class Client
 
     def initialize
-      # This is hard-coded to be localhost for now.
-      # Deal with it!
+      # This is hard-coded to be localhost (for now).
+      # Deal with it! http://pichars.org/store/4110_original_dealwithitneti.gif
       @host = 'http://localhost:3000'
     end
 
