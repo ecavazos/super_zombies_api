@@ -1,4 +1,4 @@
 # SuperZombiesApi
 
-A simple rest client for SuperZombies API.
+A super simple rest client for SuperZombies API.
 
