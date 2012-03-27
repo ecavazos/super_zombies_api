@@ -52,4 +52,8 @@ describe 'Super Zombies API' do
       zombie['gut']['created_at'].should   == '2012-03-19T03:13:10Z'
     end
   end
+
+  it 'should allow for batch creation via the horde method' do
+    pending 'i write code'
+  end
 end
