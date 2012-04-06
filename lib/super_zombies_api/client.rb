@@ -19,5 +19,11 @@ module SuperZombiesApi
       response = RestClient.post "#{ @host }/api/v1/zombies.json", post_data
       Yajl.load response.body
     end
+
+    def horde post_data
+      post_data['zombies[]'] = post_data.delete(:zombies)
+      response = RestClient.post "#{ @host }/api/v1/horde.json", post_data
+      Yajl.load response.body
+    end
   end
 end
